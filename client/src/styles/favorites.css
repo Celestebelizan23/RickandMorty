@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(50deg,#200327, #000000,#000000 ,#000000,#200327 ); 
+} 
+
+
+ .title-favorites {
+   font-size: 24px;
+   color: #ff00bf;
+   margin-bottom: 20px;
+   text-align: center;
+   font-size: 60px;
+   font-family: 'Get Schwifty'; 
+
+ }
+
+ .button-back {
+   background-color: #ff00bf;
+   position:absolute;
+   margin-left: 30px;
+   margin-top:-58px;
+   border:none;
+   border-radius: 20px;
+   font-size: 18px;
+   font-family: 'Get Schwifty'; 
+
+ }
+
+ .button-back:hover {
+      background-color: #ff00dd9d;
+    
+ }

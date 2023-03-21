@@ -1,0 +1,113 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(50deg,#200327, #000000,#000000 ,#000000,#200327 );
+    /* background-color: #ffffff; */
+    min-height: 100vh;
+ 
+
+}
+
+
+
+
+.details-container {
+  position: relative;
+}
+
+.button {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ff00dd;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: -550px;
+    position: absolute;
+    top:50px; 
+    font-weight: bold;
+    font-family: 'Get Schwifty'; 
+
+    
+  } 
+  
+  .button:hover {
+    background-color: #ff00dd9d;
+  }
+  .button-github {
+    position:absolute;
+    color: #ff00ddb4;
+    margin-left: 400px;
+    margin-top: 600px;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+  }
+  .button-github:hover{
+    background-color:#00000062; 
+  }
+ 
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 18px solid #ff00d4;
+    border-radius: 50px;
+}
+
+
+    .name {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        bottom: 230px;  
+        max-width: 345px; 
+      }
+     
+    
+      .character-image {
+        position: absolute;
+        max-width: 300px;
+        margin:30px; 
+        max-width: 300px;
+        width: 100%;
+        object-fit: contain; 
+        max-width: 300px;
+        margin:30px; 
+        max-width: 300px;
+        width: 100%;
+        object-fit: contain;  
+        position: relative;
+        text-align: center;
+        margin-bottom: 20px; 
+     }
+    
+     .details-name {
+      color: #ffffff;
+     }
+
+     .details-species {
+      text-decoration: underline;
+    }
+    
+    .details-status {
+      text-decoration: underline;
+    }
+
+    .details-location {
+      text-decoration: underline;
+    }
+
+    .details-origin {
+      text-decoration: underline;
+    }

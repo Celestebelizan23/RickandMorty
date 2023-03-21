@@ -1,0 +1,157 @@
+
+
+     #HomeDiv {
+      background-image: no-repeat;
+      background-size: cover;
+      font-family:Georgia, serif;
+      font-size: larger;
+      margin: 0px;
+       background: linear-gradient(50deg,#200327, #000000,#000000 ,#000000,#200327 ); 
+       min-height: 100vh;
+       position:absolute;
+       }
+
+  
+     #cardHome {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: repeat(5, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      position: relative;
+      margin-top: 9%;
+      display: grid;
+      justify-items: center;
+      
+    }
+    
+        
+         #titulo {
+         
+           font-family: 'Get Schwifty'; 
+          font-size: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-top: 50px;
+          background-image: linear-gradient(to right, #f165df, #800080, #f165df,  #e2addb);
+
+
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+         
+        }
+        
+
+        
+        .form-agregar-favoritos {
+          display: inline-flex;
+          align-items: center;
+          margin-left: auto;
+          position:absolute
+
+          
+        }
+        
+
+  .form-agregar-favoritos input {
+  height: 56px;
+  width: 100%;
+  top: 0.10rem;
+  left: 997px;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  top: 20px;
+  border-radius: 100px;
+  border: 2px solid #ff00d480;
+  text-align: center; 
+  color: #ff00aa; 
+  outline: none;
+  
+  
+        } 
+      
+        
+        .form-agregar-favoritos button {
+          min-width: 100px;
+          height: 40px;
+          color: #fff;
+          padding: 5px 10px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          border-radius: 20px;
+          border: 2px solid #ff00d480;
+          background-color: transparent;
+          left: 360%;
+          font-size:small;               
+          position: relative;
+          top: 20px;
+        }
+       
+        .form-agregar-favoritos button:hover {
+          background: #000000da;
+          color:  #ff00aa; 
+          border: 2px solid #ff00d480;
+
+        } 
+        
+
+
+
+       .location-select{
+        
+        font-size: inherit;
+        background-color: transparent;
+        margin-left: 750px;
+        margin-top:30px;
+        position: absolute;
+
+      
+      }
+
+       .location-select {
+        color: #ff00dd;
+        margin-left: 18px;
+
+      }
+      
+      .location-select option {
+        color: #000000;
+      }   
+      
+      .location-select:hover {
+
+        color:#eb58d7;
+      }
+       
+      
+      
+       .boton-favorito {
+        position:absolute;
+        background-color: transparent;
+        color:#ff00dd;
+        border: none;
+        font-size: inherit;
+        margin-top: 70px;
+        margin-left:19px;       
+      }
+      
+      
+      .boton-favorito:hover{
+        background-color: #800080bb;
+        border: none;
+        border-radius: 30px;
+      }
+      
+      
+      
+      
+      
