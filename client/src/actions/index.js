@@ -34,15 +34,12 @@ export function getCharacterDetail(id) {
 export function addFavorite(character) {
   return async function (dispatch) {
     console.log(character)
-    try {
-      await axios.post(`http://localhost:3005/favorites`,character);
+    
       dispatch({
         type: "ADD_FAVORITE",
         payload: character,
       });
-    } catch (error) {
-      console.log("Error al agregar a favoritos", error);
-    }
+    
   };
 }
 
