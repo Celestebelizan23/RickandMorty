@@ -2,10 +2,9 @@ require('dotenv').config();
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 const path = require('path');
-
+require('dotenv');
 const {
-  DB_USER, DB_PASSWORD, DB_HOST, DB_NAME,DB_PORT
-} = process.env;
+  DB_USER, DB_PASSWORD, DB_NAME, DB_HOST, DB_PORT} = process.env;
 
 const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
@@ -16,6 +15,7 @@ const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
     timestamps: false
   }
 });
+
 
 const modelDefiners = [];
 const modelsPath = path.join(__dirname, '/models');

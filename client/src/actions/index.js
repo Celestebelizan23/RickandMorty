@@ -3,7 +3,7 @@ import axios from "axios";
 export function getCharacter() {
   return async function (dispatch) {
     try {
-      const { data } = await axios.get(`http://localhost:3005/character`);
+      const { data } = await axios.get(`/character`);
       console.log(data);
       dispatch({
         type: "GET_CHARACTER",
@@ -19,7 +19,7 @@ export function getCharacterDetail(id) {
   return async function (dispatch) {
     try {
       
-      const { data } = await axios.get(`http://localhost:3005/character/${id}`);
+      const { data } = await axios.get(`/character/${id}`);
       console.log(data, "estoy aca");
       dispatch({
         type: "GET_DETAIL",
@@ -46,7 +46,7 @@ export function addFavorite(character) {
 export function getFavorites() {
   return async function (dispatch) {
     try {
-      const  {data}  = await axios.get(`http://localhost:3005/favorites`);
+      const  {data}  = await axios.get(`/favorites`);
       console.log(data)
       dispatch({
         type: "GET_FAVORITES",
@@ -62,10 +62,10 @@ export function filterLocation(locationName) {
   return async function (dispatch) {
     try {
       console.log(locationName);
-      var string = `http://localhost:3005/location/${locationName}`;
+      var string = `/location/${locationName}`;
       console.log(string);
       const { data } = await axios.get(
-        `http://localhost:3005/location/${locationName}`
+        `/location/${locationName}`
       );
       console.log(data);
       dispatch({
