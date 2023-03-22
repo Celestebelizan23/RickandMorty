@@ -4,13 +4,8 @@
     flex-direction: column;
     align-items: center;
     background: linear-gradient(50deg,#200327, #000000,#000000 ,#000000,#200327 );
-    /* background-color: #ffffff; */
     min-height: 100vh;
- 
-
 }
-
-
 
 
 .details-container {
@@ -31,8 +26,6 @@
     top:50px; 
     font-weight: bold;
     font-family: 'Get Schwifty'; 
-
-    
   } 
   
   .button:hover {
@@ -46,6 +39,8 @@
     background-color: transparent;
     border: none;
     font-size: large;
+    font-family: 'Get Schwifty'; 
+
   }
   .button-github:hover{
     background-color:#00000062; 

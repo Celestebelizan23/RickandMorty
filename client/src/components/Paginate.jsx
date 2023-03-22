@@ -2,8 +2,6 @@ import React from "react";
 export default function Paginado({ charactersPerPage, allCharacters, paginado }) {   
 
   const pageNumbers = []; 
-
-
   return (
     <nav>
       <ul className="paginado">

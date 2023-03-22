@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import "../styles/details.css";
 
 
+
 export default function Detail() {
   const params = useParams();
   const dispatch = useDispatch();
@@ -33,6 +34,7 @@ export default function Detail() {
           <div>
             <div className="details details-name">
               <h1 className="name"> 
+
                 {myCharacter?.name} - {myCharacter?.id}
               </h1>
               <img 
@@ -46,8 +48,6 @@ export default function Detail() {
               <h3><span className="details-location">Location:</span> {myCharacter?.location?.name}</h3>
               <h3><span className="details-origin">Origin:</span> {myCharacter?.origin?.name}</h3>
             </div>
-
-
 
             <div></div>
           </div>

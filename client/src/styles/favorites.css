@@ -5,7 +5,7 @@ body {
 
  .title-favorites {
    font-size: 24px;
-   color: #ff00bf;
+   color: #ff008c;
    margin-bottom: 20px;
    text-align: center;
    font-size: 60px;
@@ -29,3 +29,57 @@ body {
       background-color: #ff00dd9d;
     
  }
+
+.card-styles{
+  border: 1px solid black;
+margin: 1rem;
+height: 250px;  
+border-radius: 100px;
+border: 6px solid #ff00bf;
+
+}
+
+.image-styles{
+  max-width: 20px;
+  margin:30px; 
+  max-width: 100px;
+  width: 100%;
+  object-fit: contain; 
+  max-width: 300px;
+  margin:30px; 
+  max-width: 300px;
+  width: 100%;
+  object-fit: contain;  
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px; 
+  margin-top: -30px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.card-text{
+color: #ff00b3;
+  margin-left: 450px;
+  margin-top:30px;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.card-title{
+position: absolute;
+color: #ff008c;
+margin-left:800px;
+margin-top: 65px;
+font-size: 30px;
+font-family: 'Get Schwifty'; 
+
+}
+.image-container{
+  color: #ff00bf;
+}
+.underline {
+  text-decoration: underline;
+}

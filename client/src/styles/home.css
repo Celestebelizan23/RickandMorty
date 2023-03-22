@@ -24,7 +24,7 @@
       justify-items: center;
       
     }
-    
+  
         
          #titulo {
          
@@ -58,24 +58,22 @@
         }
         
 
-  .form-agregar-favoritos input {
-  height: 56px;
-  width: 100%;
-  top: 0.10rem;
-  left: 997px;
-  background-color: transparent;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  position: relative;
-  top: 20px;
-  border-radius: 100px;
-  border: 2px solid #ff00d480;
-  text-align: center; 
-  color: #ff00aa; 
-  outline: none;
-  
-  
+      .form-agregar-favoritos input {
+          height: 56px;
+          width: 100%;
+          top: 0.10rem;
+          left: 997px;
+          background-color: transparent;
+          justify-content: space-between;
+          align-items: center;
+          box-sizing: border-box;
+          position: relative;
+          top: 20px;
+          border-radius: 100px;
+          border: 2px solid #ff00d480;
+          text-align: center; 
+          color: #ff00aa; 
+         outline: none;
         } 
       
         
@@ -103,9 +101,6 @@
 
         } 
         
-
-
-
        .location-select{
         
         font-size: inherit;
@@ -113,8 +108,6 @@
         margin-left: 750px;
         margin-top:30px;
         position: absolute;
-
-      
       }
 
        .location-select {
@@ -131,7 +124,6 @@
 
         color:#eb58d7;
       }
-       
       
       
        .boton-favorito {

@@ -34,7 +34,6 @@ export default function Home() {
 
 
 
-
   const currentCharacter =
     allCharacter && allCharacter.length > 0
       ? allCharacter.slice(indexOfFirstCharacter, indexOfLastCharacter)
